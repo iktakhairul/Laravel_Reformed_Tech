@@ -26,9 +26,6 @@
                     <a class="nav-link" href="About">About Us</a>
                 </li>
             </ul>
-            <span class="navbar-text">
-        Start with us.
-      </span>
         </div>
     </div>
 </nav>
