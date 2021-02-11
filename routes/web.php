@@ -18,3 +18,7 @@ Route::view('About','About');
 Route::view('Contact','Contact');
 Route::get('customer', 'App\Http\Controllers\CustomerController@list');
 Route::post('customer', 'App\Http\Controllers\CustomerController@store');
+
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');

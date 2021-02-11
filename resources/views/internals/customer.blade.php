@@ -33,7 +33,7 @@
             <label class="form-label" for="company_id">Company</label>
             <select class="from-control form-select form-select-sm" id="company_id" name="company_id" aria-label=".form-select-sm example">
                 <option selected>Select</option>
-                <@foreach($company as $company)
+                <@foreach($companies as $company)
                     <option value="{{$company->id}}">{{$company->name}}</option>
                 @endforeach
             </select>
